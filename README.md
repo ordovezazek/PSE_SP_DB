@@ -22,7 +22,7 @@ How to run:
     https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
    
     [terminal/cmd]:<br/>
-    **conda create --name myenv**<br/>
+   % **conda create --name myenv**<br/>
     **proceed ([y]/n)? % Y**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                 <-- (enter y)<br/>
     
     
@@ -36,9 +36,9 @@ How to run:
 5. Create/open a folder and open a terminal window inside the folder (right click folder and look for option to do so)<br/>
 6. Enter the following commands in the terminal/cmd:
 
-  **git clone https://github.com/ordovezazek/PSE_SP_DB.git**<br/>
-  **cd PSE_SP_DB**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                            <-- (make sure to be inside this folder directory)<br/>
-  **conda activate myenv**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                      <-- (only for recommended setup)<br/>
+  % **git clone https://github.com/ordovezazek/PSE_SP_DB.git**<br/>
+  % **cd PSE_SP_DB**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                            <-- (make sure to be inside this folder directory)<br/>
+  % **conda activate myenv**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                      <-- (only for recommended setup)<br/>
                                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(**do step 2 of regular setup now**)<br/>
   **pip install -r requirements.txt**
   
@@ -48,6 +48,6 @@ How to run:
 
 8. Enter the following commands in the terminal/cmd:
 
-  **python3 priceCollect.py**
+  % **python3 priceCollect.py**
   
     
