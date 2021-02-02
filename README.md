@@ -21,7 +21,7 @@ How to run:
  2. create conda environment<br/>
     https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
    
-    [terminal/cmd]:<br/>
+    [ terminal/cmd ]:<br/>
    % **conda create --name myenv**<br/>
     **proceed ([y]/n)? % Y**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                 <-- (enter y)<br/>
     
