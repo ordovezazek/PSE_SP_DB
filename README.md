@@ -1,6 +1,6 @@
 How to run:
 
-=================================================== SETUP ==========================================
+============== SETUP ==============
 
 === REGULAR SETUP ===
 
@@ -26,7 +26,7 @@ How to run:
     **proceed ([y]/n)? % Y**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                 <-- (enter y)<br/>
     
     
-=================================================================================================
+======================================
 
 3. create github account<br/>
 4. install git<br/>
@@ -44,7 +44,7 @@ How to run:
   
 7. Open the parent folder in the code editor of your choice
 
-=================================================== RUN ========================================
+============== RUN ================
 
 8. Enter the following commands in the terminal/cmd:
 
