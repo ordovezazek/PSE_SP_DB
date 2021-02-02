@@ -40,7 +40,7 @@ How to run:
   % **cd PSE_SP_DB**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                            <-- (make sure to be inside this folder directory)<br/>
   % **conda activate myenv**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                      <-- (only for recommended setup)<br/>
                                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(**do step 2 of regular setup now**)<br/>
-  **pip install -r requirements.txt**
+%  **pip install -r requirements.txt**
   
 7. Open the parent folder in the code editor of your choice
 
