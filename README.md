@@ -21,26 +21,26 @@ How to run:
  2. create conda environment<br/>
     https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
    
-    [terminal/cmd]:
-    % conda create --name myenv<br/>
-    proceed ([y]/n)? % Y                                 <-- (enter y)<br/>
+    [terminal/cmd]:<br/>
+    conda create --name myenv<br/>
+    proceed ([y]/n)? % Y&nbsp;                                 <-- (enter y)<br/>
     
     
 =================================================================================================
 
 3. create github account<br/>
 4. install git<br/>
-  macos - https://www.youtube.com/watch?v=y2xkghn2X00     <-- (Homebrew recommended! Install with: https://www.youtube.com/watch?v=31eTw5xRHBA) <br/>
+  macos - https://www.youtube.com/watch?v=y2xkghn2X00&nbsp;     <-- (Homebrew recommended! Install with: https://www.youtube.com/watch?v=31eTw5xRHBA) <br/>
   windows - https://www.youtube.com/watch?v=nbFwejIsHlY
   
 5. Create/open a folder and open a terminal window inside the folder (right click folder and look for option to do so)<br/>
 6. Enter the following commands in the terminal/cmd:
 
-  % git clone https://github.com/ordovezazek/PSE_SP_DB.git<br/>
-  % cd PSE_SP_DB                                              <-- (make sure to be inside this folder directory)<br/>
-  % conda activate myenv                                      <-- (only for recommended setup)<br/>
-                                                              (* do step 2 of regular setup now *)<br/>
-  % pip install -r requirements.txt
+  git clone https://github.com/ordovezazek/PSE_SP_DB.git<br/>
+  cd PSE_SP_DB&nbsp;                                              <-- (make sure to be inside this folder directory)<br/>
+  conda activate myenv&nbsp;                                      <-- (only for recommended setup)<br/>
+                                                              &nbsp;&nbsp;(* do step 2 of regular setup now *)<br/>
+  pip install -r requirements.txt
   
 7. Open the parent folder in the code editor of your choice
 
@@ -48,6 +48,6 @@ How to run:
 
 8. Enter the following commands in the terminal/cmd:
 
-  % python3 priceCollect.py
+  python3 priceCollect.py
   
     
