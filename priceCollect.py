@@ -50,8 +50,10 @@ def get_data_from_fastquant(reload_psei=True): #change condition if data collect
     if not os.path.exists('READ_WRITE/pse_dfs'): #check for directory to save dataset
         os.makedirs('READ_WRITE/pse_dfs')
 
-    start = dt.datetime(2020,12,1)   #data timeline to be analyzed
-    end = dt.datetime(2020,12,30)
+    x1,y1,z1 = (int(i) for i in input("Starting date (yyyy,mm,dd): ").split(","))
+    start = dt.datetime(x1,y1,z1)  #data timeline to be analyzed
+    x2,y2,z2 = (int(i) for i in input("Ending date (yyyy,mm,dd): ").split(","))
+    end = dt.datetime(x2,y2,z2)
     # end = dt.datetime.now()
 
     for ticker in tickers:
