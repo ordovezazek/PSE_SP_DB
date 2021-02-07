@@ -38,6 +38,9 @@ def save_psei_tickers():
 
 # Get full data from fastquant based on saved pickle
 def get_data_from_fastquant(reload_psei=True): #change condition if data collection was edited (IPO etc.)
+    if not os.path.exists('READ_WRITE/'): #check for directory to save dataset
+        os.makedirs('READ_WRITE/')
+
     if reload_psei:
         tickers = save_psei_tickers()
     else:
